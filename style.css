@@ -1,18 +1,38 @@
+* {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
-    margin: 0;
-    min-height: 100vh;
-    background-color: #204060ff;
+  margin: 0;
+  min-height: 100vh;
+  background-color: #204060ff;
 }
 
 #topbanner {
-    background-color: #40a0ffff;
-    padding: 2.5%;
-    color: #ffffffff;
-    font-size: 48px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    position: fixed;
-    width: 100%;
-    box-shadow: 0px 0px 32px #000000ff;
+  display: block;
+  background-color: #40a0ffff;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 0px 32px #000000ff;
+}
+
+#username {
+  margin: 48px;
+  color: #ffffffff;
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  float: left;
+}
+
+#menu {
+  margin: 48px;
+  color: #ffffffff;
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  float: right;
 }
